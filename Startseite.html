@@ -1,36 +1,587 @@
 
-<header>
-  <title>Berrys Drink's Getränkehandel </title>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="pics/gsstorelogo.png" size="auto"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link " href="index.html">HOME
-              <span class="sr-only"></span>
-            </a>
-            </li>
-            <li class="nav-item  ">
-            <a class="nav-link active" href="shop.html">SHOP</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="Getränkekategorien.html">123</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="ueberuns.html">ÜBER UNS</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="warenkorb.html"><i class="fas fa-shopping-basket" style="font-size: 20px;"></i></a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="login.html"><i class="fas fa-user" style="font-size: 20px;"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:image" content="">
+    <meta property="og:title" content="E-Shop">
+    <meta 
+    property="og:description" 
+    content="An e-shop example page">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Berrys Drinks </title>
+	
+	
+    <meta charset="UTF-8">
+    <title>Cookie Meldungen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="https://ekiwi.de/cookieconsent/cookieconsent.min.css" />
+    <script src="https://ekiwi.de/cookieconsent/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "content": {
+                    "message": "Wir verwenden Cookies auf der Website, um Ihren Besuch effizienter zu machen und Ihnen Benutzerfreundlichkeit bieten zu können.",
+                    "dismiss": "OK",
+                    "link": "Informationen",
+                    "href": "https://ekiwi.de/datenschutzerklaerung.htm"
+                }
+            })});
+    </script>
+
+</head>
+<body>
+    <header>
+        <nav class = "bg-darkgray w-100 p-fixed nav-fixed">
+            <div class = "flex justify-around align-center max-width-1000 m-h">
+                <div class="flex align-center">
+                    <div class = "icon p-relative">
+                        <a href="index.html">
+                            <div class = "h-50 flex">
+                                
+                            </div>
+                            <div class = "h-50 flex">
+                            
+                            </div>
+                            
+                        </a>
+                    </div>
+                    <h1><a class="" href="index.html"></a></h1>
+              
+                <div class="flex flex-column align-center">
+                    <a href="index.html"><span class="block color-white p-20 p-relative z-1 font-size-xl">Berrys Drinks</span></a>
+                    <h2 class="block color-white p-20 z-1">Be Great, Feel Good drink Berrys!</h2>
+                    <div class="flex-tablet align-center z-1">
+                        
+                            <div class="flex">
+                                <div class="">
+                                    
+                                </div>
+								</div>
+								
+								
+                <div class="ml-10">
+                    <a class="flex align-center" href="index.html">
+                        <i class="block color-gray font-size-medium fas fa-home"></i>
+                        <span class="block ml-5 color-gray hide-mobile">Home</span>
+                    </a>
+                </div>
+				
+				
+                <div class="ml-10">
+                    <a class="flex align-center" href="">
+                        <i class="block color-gray font-size-medium fas fa-shopping-cart"></i>
+                        <span class="block ml-5 color-gray hide-mobile">Warenkorb</span>
+                    </a> 
+            </div>
+			
+			<div class="ml-10">
+                    <a class="flex align-center" href="register.html">
+                        <i class=""></i>
+                        <span class="block ml-5 color-gray hide-mobile">Registrierung</span>
+                    </a> 
+            </div>
+			
+			
+			
+        </nav>
+        <nav class="mt-45 bg-pink">
+            <div class="nav-secondary p-relative">
+                <div class="p-absolute top-n20">
+                    <div class = "icon-large p-relative ml-5 hide-mobile">
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class = "h-50 flex">
+                            <div class = "circle-large color-darkpink"></div>
+                            <div class = "circle-large color-darkpink"></div>
+                        </div>
+                        <div class="rect bg-darkpink p-absolute"></div>
+                    </div>
+                </div>                    
+                            </div>
+                            <button class="ml-5 block bg-darkgray search-btn color-gray" type="submit">SUCHE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-white p-relative">
+        <div class="container">
+            <section class="offer ph-20">
+                <div class="max-width-1000 m-h">
+                    
+                    <div class="slides">
+                        <div class="slide" id="slide-1">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-preis">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/hotel.png" alt="Wolfscraft">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Getränke (Bier, Softdrinks,Spirituosen)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">Mehr Angebote</a></p>
+                                        <p class="mt-10 strike">40€</p>
+                                        <p>20€</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>Zum Warenkorb hinzufügen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-2">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-preis">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/hotel.png" alt="neu">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Getränke (Bier, Softdrinks,Spirituosen)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">Mehr Angebote</a></p>
+                                        <p class="mt-10 strike">40</p>
+                                        <p>28</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>Zum Warenkorb hinzufügen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-3">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-preis">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/2k21.png" alt="neu">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Getränke (Bier, Softdrinks,Spirituosen)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">Mehr Angebote</a></p>
+                                        <p class="mt-10 strike">400$</p>
+                                        <p>280$</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>Zum Warenkorb hinzufügen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-4">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-preis">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/asus.png" alt="asus">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Getränke (Bier, Softdrinks,Spirituosen)</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">Mehr Angebote ansehen</a></p>
+                                        <p class="mt-10 strike">10€</p>
+                                        <p>10€</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>Zum Warenkorb hinzufügen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" id="slide-5">
+                            <div>
+                                <div class="flex-tablet bg-verylightgray p-20 mt-10">
+                                    <div class="p-relative main-offer">
+                                        <div class="z-1 p-absolute discount-tag"><p class="color-white p-absolute discount-preis">-30%</p></div>
+                                        <img class="p-absolute offer-img block card-img" src="images/asus.png" alt="asus">
+                                    </div>
+                                    <div class="m-v offer-body">
+                                        <h3><a class="block color-pink h-medium bold mt-10" href="html/search-result.html">Fiji Wasser</a></h3>
+                                        <p class="mt-10"><a href="html/search-result.html">Mehr Angebote</a></p>
+                                        <p class="mt-10 strike">40€</p>
+                                        <p>280€</p>
+                                        <button class="mt-10 cart-btn bg-pink flex align-center" type="button"><i class="color-darkgray fas fa-shopping-cart"></i><span class="block ml-10"></span>Zum Warenkorb hinzufügen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="flex justify-center mt-10">
+                        <a href="#slide-1"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-2"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-3"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-4"><div class="ml-10 slider-circle"></div></a>
+                        <a href="#slide-5"><div class="ml-10 slider-circle"></div></a>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">Spirituosen</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/hotel.png" alt="Razer Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/2k21.png">Fiji Wasser</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Fiji Wasser</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">10€</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/zeroground1.jpeg" alt="drink">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Coca Cola</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Coca</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+						
+                            <p class="m-v color-pink h-medium bold p-absolute preis">39 €</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/zeroground2.png" alt="Zeroground Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Fiji Wasser</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Fiji Wasser</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">24</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/hotel.png" alt="Razer Headset">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Fiji Wasser</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Fiji Wasser</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">19</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/hotel.png" alt="Razer">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Fiji Wasser</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Fiji Wasser</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">10€</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">Bier</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 bold color-pink h-medium" href="html/search-result.html">Becks Pils 20x 0,50L </a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Bier</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">23,99€ </p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Becks Pils 20x 0,50L</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Getränk</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">59,99 €</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Becks Pils 20x 0,50L</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Bier</p> </a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">69.99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Bier</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Getränke</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">20€</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/cyberpunk.png" alt="Cyberpunk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Wolfscraft</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">Getränk</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">59,99$</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-45 ph-20">
+                <h2 class="section-header block color-darkgray g-rounded"><a href="html/search-result.html">Softdrinks</a></h2>
+                <div class="flex flex-wrap justify-between">
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.png" alt="Risk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">#383838;</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">#383838</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">24,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.png" alt="Risk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">#383838;</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">#383838;</p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">24,99€</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.png" alt="Risk">
+                        </div>
+                        
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">in den Warenkorb</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">9,99€</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.png" alt="Risk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Fiji</a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">See Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="m-v color-pink h-medium bold p-absolute preis">24,99$</p>
+                        </div>
+                    </div>
+                    <div class="card p-20 p-relative">
+                        <div class="p-relative pb-100">
+                            <img class="block m-h card-img p-absolute" src="images/2k21.png" alt="Risk">
+                        </div>
+                        <h4><a class="block mt-10 color-pink h-medium bold" href="html/search-result.html">Wolfscraft das Helle! </a></h4>
+                        <a href="html/search-result.html"><p class="mt-10">lorem ipsum lorem ipsumlorem </p></a>
+                        <div class="pt-20">
+                            <div class="flex justify-between p-absolute card-bottom mt-10">
+                                <div class="plus-icon p-relative">
+                                    <i class="fas fa-plus"></i>
+                                    <div class="p-absolute dropdown bg-white">
+                                        <a class="block dropdown-link" href="html/search-result.html">Zum Warenkorb hinzufügen</a>
+                                        <a class="block dropdown-link" href="html/search-result.html">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="preis">24,99€</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> 
+    </main>
+    <footer class="mt-20">
+        <div class="container ph-20">
+            <div class="footer flex justify-center">
+                <div class="info">
+                    <div class="flex align-center justify-center">
+                        <div class = "icon p-relative ml-5">
+                            <a href="html/search-result.html">
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class = "h-50 flex">
+                                    <div class = "circle color-gray"></div>
+                                    <div class = "circle color-gray"></div>
+                                </div>
+                                <div class=""></div>
+                            </a>
+                        </div>
+                        <p><a href="html/search-result.html">Berrys Drinks</a></p>
+                    </div>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="index.html">Home Page</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Über uns</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Kontakt</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="html/search-result.html">Term & Condition </a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Advertise</a></li>
+                        <li class="mt-10 bar"><a href="html/search-result.html">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap">
+                        <li class="mt-10 pr-10"><a href="html/search-result.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="Berrys Drinks">
+                    <p class="Berrys Drinks-header color-pink"><a href="html/search-result.html">Berrys Drinks</a></p>
+                    <div class="flex">
+                        <ul class="list">
+                            <li class="mt-10"><a href="html/search-result.html">Bier</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Spirituosen</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Softdrinks</a></li>
+                           
+                        </ul>
+                        <ul class="list">
+                            <li class="mt-10"><a href="html/search-result.html">Bier</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Spiritousen</a></li>
+                            <li class="mt-10"><a href="html/search-result.html">Softdrinks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
