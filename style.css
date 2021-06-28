@@ -80,11 +80,11 @@
 }
 
 .color-pink {
-  color: ##aaaaaa;
+  color: #aaaaaa;
 }
 
 .bg-pink {
-  background-color: ##aaaaaa;
+  background-color: #aaaaaa;
 }
 
 .color-gray {
@@ -221,7 +221,7 @@
   z-index: 1;
 }
 
-}
+
 
 .circle {
   border: 4px solid;
@@ -375,7 +375,7 @@
   color: #888;
 }
 .plus-icon:hover {
-  color: ##aaaaaa;
+  color: #aaaaaa;
   background-color: #383838;
 }
 
@@ -431,7 +431,7 @@
 .discount-tag {
   width: 50px;
   height: 50px;
-  border-top: 100px solid ##aaaaaa;
+  border-top: 100px solid #aaaaaa;
   border-right: 100px solid transparent;
   top: 0;
   text-align: center;
@@ -550,7 +550,7 @@
 
 .categories-header {
   padding-bottom: 10px;
-  border-bottom: 1px solid ##aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
 }
 
 .footer {
@@ -663,7 +663,7 @@ font-family: GothamBold, sans-serif;
   
 }
 
-footer {35
+footer {
   font-family: GothamRounded, sans-serif;
   color: #383838;
   font-weight: 700;
@@ -709,5 +709,5 @@ nav {
 }
 
 .slider-circle:hover {
-  background-color: ##aaaaaa;
+  background-color: #aaaaaa;
 }
